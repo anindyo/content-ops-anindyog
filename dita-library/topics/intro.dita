@@ -4,4 +4,39 @@
   <body>
     <p>This sample DITA topic shows the purpose of the small DITA library included in this repository.</p>
   </body>
+  <topic id="subtopic-1"><title>Subtopic 1</title>
+    <body>
+      <p>This section demonstrates a subtopic.</p>
+      <p>And some simple tables:</p>
+      <table>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Column 1</entry>
+              <entry>Column 2</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Row 1, Cell 1</entry>
+              <entry>Row 1, Cell 2</entry>
+            </row>
+            <row>
+              <entry>Row 2, Cell 1</entry>
+              <entry>Row 2, Cell 2</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <div outputclass="acme-spl-tabs">
+        <p>And some simple tabs:</p>
+        <div outputclass="acme-spl-tab acme-spl-tab-active" otherprops="Platform A">
+          <p>Tab 1 content</p>
+        </div>
+        <div outputclass="acme-spl-tab" otherprops="Platform B">
+          <p>Tab 2 content</p>
+        </div>
+      </div>
+    </body>
+  </topic>
 </topic>
