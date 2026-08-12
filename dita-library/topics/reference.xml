@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<reference id="reference-sample" xmlns="http://dita.oasis-open.org/ns/dita">
-  <title>Reference: Sample Metadata</title>
-  <refbody>
-    <p>Example metadata and reference information that might be included in a reference topic.</p>
-  </refbody>
-</reference>

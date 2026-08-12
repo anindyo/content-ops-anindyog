@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<topic id="concept" xmlns="http://dita.oasis-open.org/ns/dita">
-  <title>Concept: Content Operations</title>
-  <body>
-    <p>Content Operations (ContentOps) applies software-engineering practices to content: versioning, automation, validation, and continuous delivery of content artifacts.</p>
-  </body>
-</topic>
