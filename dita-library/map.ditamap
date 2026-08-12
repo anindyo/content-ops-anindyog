@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map id="sample-map" xmlns="http://dita.oasis-open.org/ns/dita">
   <title>Sample DITA Map</title>
-  <topicref href="topics/intro.xml"/>
-  <topicref href="topics/concept.xml"/>
-  <topicref href="topics/task.xml"/>
-  <topicref href="topics/reference.xml"/>
+  <topicref href="topics/intro.dita"/>
+  <topicref href="topics/concept.dita"/>
+  <topicref href="topics/task.dita"/>
+  <topicref href="topics/reference.dita"/>
 </map>
