@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map id="sample-map" xmlns="http://dita.oasis-open.org/ns/dita">
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Sample web output</title>
-  <topicref href="topics/intro.dita"/>
+  <topicref href="dita-library/topics/intro.dita"/>
 
 </map>

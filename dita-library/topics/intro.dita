@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<topic id="intro" xmlns="http://dita.oasis-open.org/ns/dita">
+<?xml version="1.0"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<topic id="intro">
   <title>Introduction</title>
   <body>
     <p>This sample DITA topic shows the purpose of the small DITA library included in this repository.</p>
@@ -28,13 +29,23 @@
           </tbody>
         </tgroup>
       </table>
+      <p>Some simple lists and procedures.</p>
       <div outputclass="acme-spl-tabs">
         <p>And some simple tabs:</p>
         <div outputclass="acme-spl-tab acme-spl-tab-active" otherprops="Platform A">
           <p>Tab 1 content</p>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+          </ul>
         </div>
         <div outputclass="acme-spl-tab" otherprops="Platform B">
           <p>Tab 2 content</p>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+          </ol>
         </div>
       </div>
     </body>
