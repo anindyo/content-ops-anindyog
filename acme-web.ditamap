@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-  <title>Sample web output</title>
+<map xml:lang="en-US">
+  <title>Sample tool output</title>
+
+    <topicref href="dita-library/topics/concept.dita">
+    </topicref>
+
+
   <topicref href="dita-library/topics/intro.dita"/>
+  <topicref href="dita-library/topics/task.dita"/>
 
 </map>

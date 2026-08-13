@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<topic id="concept" xmlns="http://dita.oasis-open.org/ns/dita">
-  <title>Concept: Content Operations</title>
-  <body>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<concept id="concept">
+  <title>Overview of content operations</title>
+  <conbody>
     <p>Content Operations (ContentOps) applies software-engineering practices to content: versioning, automation, validation, and continuous delivery of content artifacts.</p>
-  </body>
-</topic>
+  </conbody>
+</concept>

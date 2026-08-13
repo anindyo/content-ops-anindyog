@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<task id="task-sample" xmlns="http://dita.oasis-open.org/ns/dita">
-  <title>Task: Publish a Topic</title>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<task id="task-sample">
+  <title>View content</title>
   <taskbody>
     <steps>
       <step>
-        <cmd>Validate the DITAMAP with your DITA toolchain.</cmd>
+        <cmd>Step 1: the 1st step in the procedure.</cmd>
       </step>
       <step>
-        <cmd>Run a transformation (for example, generate HTML or PDF) using DITA-OT.</cmd>
+        <cmd>Step 2.</cmd>
       </step>
     </steps>
   </taskbody>
