@@ -30,7 +30,31 @@
         </tgroup>
       </table>
       <p>Some simple lists and procedures.</p>
-      <div outputclass="acme-spl-tabs">
+
+      <bodydiv outputclass="nav-tabs">
+        <section>
+          <title>Platform A</title>
+          <p>Tab 1 content</p>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+          </ul>
+        </section>
+        <section>
+          <title>Platform B</title>
+          <p>Tab 2 content</p>
+          <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+          </ol>
+        </section>
+      </bodydiv>
+
+
+
+
+      <!--div outputclass="acme-spl-tabs">
         <p outputclass="tab-title">Platform A</p>
         <div outputclass="acme-spl-tab acme-spl-tab-active">
           <p>Tab 1 content</p>
@@ -48,7 +72,7 @@
             <li>List item 3</li>
           </ol>
         </div>
-      </div>
+      </div-->
     </body>
   </topic>
 </topic>

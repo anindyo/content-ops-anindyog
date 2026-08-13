@@ -12,7 +12,7 @@ body {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     margin: 10px 0;
-    color: #007bff; /* Blue */
+    color: #5295dc; /* Blue */
   }
   
   h1.title {
@@ -213,3 +213,23 @@ body {
   .acme-spl-tabs > .acme-spl-tab:first-of-type {
     display: block;
   }
+
+/* 1. Default state for all tab buttons */
+.tab-button {
+  background-color: #f1f1f1; /* Light gray */
+  color: #dd8fe9;            /* Dark text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* 2. Hover state when mouse rolls over */
+.tab-button:hover {
+  background-color: #ddd;     /* Medium gray */
+}
+
+/* 3. Active state for the currently open tab */
+.tab-button.active {
+  background-color: #007bff; /* Vibrant blue */
+  color: #ffffff;            /* White text */
+}
