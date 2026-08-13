@@ -13,7 +13,7 @@ fs.remove('out', (error) => {
   console.log('Directory removed successfully');
 
   // Run the DITA command to generate Markdown
-  exec("/Users/anindyogupta/dita-ot-4.0.2/bin/dita -i acme-web.ditamap -f html5 -o out/html", (error, stdout, stderr) => {
+  exec("/Users/anindyogupta/dita-ot-4.0.2/bin/dita -i acme-web.ditamap -f html5-bootstrap -o out/html --propertyfile=docs-build-html5.properties", (error, stdout, stderr) => {
     if (error) {
       console.error(`Error executing command: ${error}`);
       return;

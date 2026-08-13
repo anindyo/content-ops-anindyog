@@ -31,15 +31,16 @@
       </table>
       <p>Some simple lists and procedures.</p>
       <div outputclass="acme-spl-tabs">
-        <p>And some simple tabs:</p>
-        <div outputclass="acme-spl-tab acme-spl-tab-active" otherprops="Platform A">
+        <p outputclass="tab-title">Platform A</p>
+        <div outputclass="acme-spl-tab acme-spl-tab-active">
           <p>Tab 1 content</p>
           <ul>
             <li>List item 1</li>
             <li>List item 2</li>
           </ul>
         </div>
-        <div outputclass="acme-spl-tab" otherprops="Platform B">
+        <p outputclass="tab-title">Platform B</p>
+        <div outputclass="acme-spl-tab">
           <p>Tab 2 content</p>
           <ol>
             <li>List item 1</li>

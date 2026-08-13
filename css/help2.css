@@ -1,0 +1,169 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #333;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007bff; /* Blue */
+  }
+  
+  h1.title {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Grayish blue */
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Darker grayish blue */
+  }
+  
+  /* Alerts */
+  .alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1; /* Light blue */
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+  }
+  
+  .alert-primary {
+    background-color: #cce5ff; /* Light blue */
+    color: #004085;
+    border: 1px solid #b8daff;
+  }
+  
+  /* Cards */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #0056b3;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray */
+  }
+  
+  table tr:hover {
+    background-color: #e9f7fe; /* Light blue */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    padding: 10px 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-blue {
+    color: #007bff;
+  }
+  
+  .bg-light-blue {
+    background-color: #e9f7fe;
+  }
