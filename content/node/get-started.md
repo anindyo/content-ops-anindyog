@@ -53,4 +53,9 @@ This section shows how to install the Nano library and use it to connect to an e
    // Access the document where "_id" is ef
    console.log(client.get('ef'));
    ```
-3. 
+   The code illustration above creates a connection to the `acme-records` database and retrieves the document `"_id": "ef"`. 
+3. From your project directory, run the following command:
+    ```bash
+    node documentops.js
+    ```
+    The command prints the contents of the document in the terminal.
