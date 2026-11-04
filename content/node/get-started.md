@@ -39,3 +39,15 @@ This section shows how to install the Nano library and use it to connect to an e
    * Records the dependency information in the `package.json` file
 
 ## Connect to Apache CouchDB
+
+1. In the Node.js project directory (`couchdb_project` in the example above), create a `*.js` file (for example, `documentops.js`).
+2. In the file, type the following code to establish a connection to your Apache CouchDB instance:
+
+   ```javascript
+   import { nano } from 'nano';
+   // Follow secure coding practices
+   // The <connection string URI> string contains sensitive access details
+   const nanoconnect = nano('<connection string URI>');
+
+   ```
+3. 
