@@ -33,5 +33,9 @@ This section shows how to install the Nano library and use it to connect to an e
    ```bash
    npm install nano
    ```
+   The command performs the following actions:
+   * Downloads the `nano` package and its dependencies
+   * Saves the library in the `node_modules` directory
+   * Records the dependency information in the `package.json` file
 
 ## Connect to Apache CouchDB
