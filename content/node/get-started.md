@@ -8,8 +8,8 @@ This section shows how to install the Nano library and use it to connect to an e
 1. Secure your Apache CouchDB instance industry-standard authentication credentials.
 1. Create databases and documents with 
 1. Ensure your development environment contains the following dependencies:
-  1. Node.js v16.20.1 or later
-  1. Node Package Manager (npm) 10.00.0 or higher
+   1. Node.js v16.20.1 or later
+   1. Node Package Manager (npm) 10.00.0 or higher
 
 ## Download and install
 
