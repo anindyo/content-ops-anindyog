@@ -15,19 +15,19 @@ This section shows how to install the Nano library and use it to connect to an e
 
 1. Create a Node.js project.
    > **Tip:** If you already created a project to work with your Apache CouchDB instance, go to the project root, and then skip to step 2.
-  1. In your shell, run the following command to create a new directory (for example, `couchdb-project`):
-     ```bash
-     mkdir couchdb_project
-     ```
-  2. Go to the new directory:
-     ```bash
-     cd couchdb_project
-     ```
-  3. Run the following command:
-     ```bash
-     npm init -y
-     ```
-     The command creates a `package.json` file.
+     1. In your shell, run the following command to create a new directory (for example, `couchdb-project`):
+        ```bash
+        mkdir couchdb_project
+        ```
+     2. Go to the new directory:
+        ```bash
+        cd couchdb_project
+        ```
+     3. Run the following command:
+        ```bash
+        npm init -y
+        ```
+        The command creates a `package.json` file.
 
 4. To install the library, run the following command:
    ```bash
