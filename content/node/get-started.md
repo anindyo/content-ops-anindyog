@@ -44,14 +44,15 @@ This section shows how to install the Nano library and use it to connect to an e
 2. In the file, type the following code to establish a connection to your Apache CouchDB instance:
 
    ```javascript
-   import { nano } from 'nano';
+   import nano from 'nano';
    // Follow secure coding practices
    // The <connection URI> string contains sensitive access details
    const nanoconnect = nano('<connection URI>');
    // Connect to the acme-records database
-   const client = nano.use('acme-records');
+   const client = nanoconnect.use('acme-records');
    // Access the document where "_id" is ef
-   console.log(client.get('ef'));
+   const doc_ef = await client.get('ef');
+   console.log(doc_ef);
    ```
    The code illustration above creates a connection to the `acme-records` database and retrieves the document `"_id": "ef"`. 
 3. From your project directory, run the following command:
