@@ -15,7 +15,7 @@ This section shows how to install the Nano library and use it to connect to an e
 
 1. Create a Node.js project.
 2. To install the library, run the following command:
-   ```
+   ```bash
    npm install nano
    ```
 
