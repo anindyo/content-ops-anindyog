@@ -14,6 +14,9 @@ This section shows how to install the Nano library and use it to connect to an e
 ## Download and install
 
 1. Create a Node.js project.
+   > **Tip:** If you already created a project to work with your Apache CouchDB instance, go to the project root, and then skip to step 2.
+
+
 2. To install the library, run the following command:
    ```bash
    npm install nano
