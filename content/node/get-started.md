@@ -46,8 +46,11 @@ This section shows how to install the Nano library and use it to connect to an e
    ```javascript
    import { nano } from 'nano';
    // Follow secure coding practices
-   // The <connection string URI> string contains sensitive access details
-   const nanoconnect = nano('<connection string URI>');
-
+   // The <connection URI> string contains sensitive access details
+   const nanoconnect = nano('<connection URI>');
+   // Connect to the acme-records database
+   const client = nano.use('acme-records');
+   // Access the document where "_id" is ef
+   console.log(client.get('ef'));
    ```
 3. 
