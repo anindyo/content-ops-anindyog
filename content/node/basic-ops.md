@@ -68,7 +68,7 @@ import nano from 'nano';
 const nanoconnect = nano('<connection URI>');
 // Connect to the acme-records database
 const client = nanoconnect.use('acme-records');
-// Access the document 
+// Retrieve the document 
 const result = await client.get("ew");
 // Print the result
 console.log(result);
