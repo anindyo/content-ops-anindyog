@@ -24,5 +24,21 @@ The output in your terminal window looks similar to this:
 ```
 For more information about the `insert` method, see [nano API reference](https://www.npmjs.com/package/nano#database-functions).
 
+### Complete insert example 
+
+The following code is a complete, standalone file that performs an insert one operation:
+
+```javascript
+import nano from 'nano';
+// Follow secure coding practices
+// The <connection URI> string contains sensitive access details
+const nanoconnect = nano('<connection URI>');
+// Connect to the acme-records database
+const client = nanoconnect.use('acme-records');
+// Access the document where "_id" is ef
+const doc_ew = {"_id": "ew", "first_name": "Emma", "last_name": "Woodhouse", "account_type": "platinum"};
+const result = await client.insert(doc_ew);
+console.log(result);
+```
 
 ## Retrieve documents
