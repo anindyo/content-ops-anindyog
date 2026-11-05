@@ -24,7 +24,7 @@ The output in your terminal window looks similar to this:
 ```
 For more information about the `insert` method, see [nano API reference](https://www.npmjs.com/package/nano#database-functions).
 
-### Complete insert example 
+### Full file
 
 The following code is a complete, standalone file that performs an insert one operation:
 
