@@ -22,5 +22,7 @@ The output in your terminal window looks similar to this:
 ```bash
 { ok: true, id: 'ew', rev: '1-9770--' }
 ```
+For more information about the `insert` method, see [nano API reference](https://www.npmjs.com/package/nano#database-functions).
+
 
 ## Retrieve documents
