@@ -26,7 +26,7 @@ For more information about the `insert` method, see [nano API reference](https:/
 
 ### Full file
 
-The following code is a complete, standalone file that performs an insert one operation:
+The following code is a complete, standalone file that performs an insert operation:
 
 ```javascript
 import nano from 'nano';
@@ -42,3 +42,16 @@ console.log(result);
 ```
 
 ## Retrieve documents
+
+Use a *get* operation to retrieve documents from an Apache CouchDB instance. The `nano` library provides the `get` method to perform read operations.
+
+The following code illustrates how to retrieve an existing document:
+
+```javascript
+// Connect to the acme-records database
+const client = nanoconnect.use('acme-records');
+// Use the get method to retrieve a document
+const result = await client.get("ew");
+// Print the result
+console.log(result);
+```
