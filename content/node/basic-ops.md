@@ -4,7 +4,7 @@ Read this topic to learn about insert and read operations. Sections in this topi
 
 ## Insert documents
 
-Use an *insert* operation to store information into an Apache CouchDB instance. The `nano` library provides the `insert` method to perform insert operations.
+Use the `nano` library’s `insert` method to insert a document in an Apache CouchDB instance.
 
 The following code illustrates a simple insert operation to store a new document:
 
@@ -24,7 +24,7 @@ The output in your terminal window looks similar to this:
 ```
 For more information about the `insert` method, see [nano API reference](https://www.npmjs.com/package/nano#database-functions).
 
-### Full file
+### Complete example
 
 The following code is a complete, standalone file that performs an insert operation:
 
@@ -44,7 +44,7 @@ console.log(result);
 
 ## Retrieve documents
 
-Use the *get* method of the `nano` library to retrieve documents by document IDs from an Apache CouchDB instance. 
+Use the `nano` library's  *get* method to retrieve documents by document IDs from an Apache CouchDB instance. 
 
 The following code illustrates how to retrieve an existing document by ID:
 
@@ -57,7 +57,7 @@ const result = await client.get("ew");
 // Print the result
 console.log(result);
 ```
-### Full file
+### Complete example
 
 The following code is a complete, standalone file that retrieves a document by ID:
 
