@@ -54,7 +54,7 @@ This section shows how to install the Nano library and use it to connect to an e
    const doc_ef = await client.get('ef');
    console.log(doc_ef);
    ```
-   The code illustration above creates a connection to the `acme-records` database and retrieves the document `"_id": "ef"`. 
+  This code connects to the `acme-records` database and retrieves the document with the ID `ef`. 
 3. From your project directory, run the following command:
     ```bash
     node documentops.js
