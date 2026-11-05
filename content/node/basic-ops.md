@@ -11,7 +11,7 @@ The following code illustrates a simple insert operation to store a new document
 ```javascript
 // Connect to the acme-records database
 const client = nanoconnect.use('acme-records');
-// Define the document where "_id" is ew
+// Define the document where "_id" is set to "ew"
 const doc_ew = {"_id": "ew", "first_name": "Emma", "last_name": "Woodhouse", "account_type": "platinum"};
 // Use the insert method to insert the document
 const result = await client.insert(doc_ew);
@@ -35,22 +35,40 @@ import nano from 'nano';
 const nanoconnect = nano('<connection URI>');
 // Connect to the acme-records database
 const client = nanoconnect.use('acme-records');
-// Access the document where "_id" is ef
+// Define the document
 const doc_ew = {"_id": "ew", "first_name": "Emma", "last_name": "Woodhouse", "account_type": "platinum"};
+// Insert the document
 const result = await client.insert(doc_ew);
 console.log(result);
 ```
 
 ## Retrieve documents
 
-Use a *get* operation to retrieve documents from an Apache CouchDB instance. The `nano` library provides the `get` method to perform read operations.
+Use the *get* method of the `nano` library to retrieve documents by document IDs from an Apache CouchDB instance. 
 
-The following code illustrates how to retrieve an existing document:
+The following code illustrates how to retrieve an existing document by ID:
 
 ```javascript
 // Connect to the acme-records database
 const client = nanoconnect.use('acme-records');
 // Use the get method to retrieve a document
+// "ew" is the ID of the document you want to retrieve
+const result = await client.get("ew");
+// Print the result
+console.log(result);
+```
+### Full file
+
+The following code is a complete, standalone file that retrieves a document by ID:
+
+```javascript
+import nano from 'nano';
+// Follow secure coding practices
+// The <connection URI> string contains sensitive access details
+const nanoconnect = nano('<connection URI>');
+// Connect to the acme-records database
+const client = nanoconnect.use('acme-records');
+// Access the document 
 const result = await client.get("ew");
 // Print the result
 console.log(result);
